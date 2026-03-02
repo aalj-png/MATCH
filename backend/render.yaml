@@ -1,0 +1,8 @@
+# Build instructions for Render
+# Place this file in the root of your project
+
+# Build command
+pip install -r requirements.txt
+
+# Start command  
+uvicorn main:app --host 0.0.0.0 --port $PORT
